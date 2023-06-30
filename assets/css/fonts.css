@@ -1,0 +1,33 @@
+.icon-javascript:before {
+  content: "\e900";
+  color: #f7df1e;
+}
+.icon-jquery:before {
+  content: "\e901";
+  color: #0769ad;
+}
+.icon-bootstrap:before {
+  content: "\e902";
+  color: #563d7c;
+}
+.icon-phone-hang-up:before {
+  content: "\e943";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-mail4:before {
+  content: "\ea86";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-html-five:before {
+  content: "\eae4";
+}
+.icon-css3:before {
+  content: "\eae6";
+}

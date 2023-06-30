@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?8r3134");
+  src: url("../fonts/icomoon.eot?8r3134#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?8r3134") format("truetype"),
+    url("../fonts/icomoon.woff?8r3134") format("woff"),
+    url("../fonts/icomoon.svg?8r3134#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #52b788;
+  position: relative;
+}
+
+.min-height-vh {
+  min-height: calc(100vh - 200px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  font-size: 5px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h4 {
+  margin-bottom: 0px;
+}
+
+.footer img {
+  max-width: 50px;
+  width: 30px;
+  max-height: 50px;
+}
+
+.contact {
+  font-family: "Anton", sans-serif;
+  margin-top: 100px;
+}
+
+.name {
+  color: white;
+  font-family: "Anton", sans-serif;
+}
+
+.home{
+  position: absolute;
+  font-family: "Anton", sans-serif;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  color: white;
+}
+
+.home ul li {
+  display: inline-block;
+  list-style-type: none;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-left: 10px;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.home ul li:nth-child(6),
+.home ul li:nth-child(7) 
+.home ul li:nth-child(8)
+.home ul li:nth-child(9){
+  padding: 11px 12px 11px 12px;
+}
+
+.home ul li img {
+  display: inline-block;
+  border-radius: 50%;
+  text-decoration: none;
+
+  width: 35px;
+}
+
+.experience {
+  color: white;
+  font-family: "Anton", sans-serif;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+}
+
+.experience h2 {
+  margin-bottom: 50px;
+}
+
+.experience ul li {
+  font-weight: 100;
+}
+
+.projects {
+  color: white;
+  font-family: "Anton", sans-serif;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.projects h2 {
+  margin-bottom: 50px;
+}
+
+.education {
+  color: white;
+  font-family: "Anton", sans-serif;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+span {
+  color: #1b4332;
+  font-family: "Anton", sans-serif;
+}
+
+.menu {
+  font-family: "Anton", sans-serif;
+  color: #95d5b2;
+}
+
+#contact {
+  padding-bottom: 150px;
+}
+
+.social-ul {
+  list-style-type: none;
+}
+
+.social-ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-ul li:last-child {
+  margin-right: 0;
+}
+
+.social-ul li a {
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 60px 0;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.formButton {
+  background-color: transparent;
+  border: none;
+}
+.formButton:hover {
+  background-color: #95d5b2;
+}
+
+.contact form {
+  margin-bottom: 50px;
+}
+.form-control {
+  background-color: transparent;
+  color: black;
+}
+
+.form-control::placeholder {
+  color: black;
+}
+
+.form-control:focus {
+  background: transparent;
+  border-color: white;
+  box-shadow: none;
+}
